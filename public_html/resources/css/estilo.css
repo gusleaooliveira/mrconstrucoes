@@ -126,10 +126,10 @@ img {
 .hcw-margin-10 { margin: 10px; }
 
 .hcw-background-ecru { background-color: #C1AE7C; color: #fff; }
-.hcw-background-raisin-black { background-color: #272727; color: #000; }
+.hcw-background-raisin-black { background-color: #272727; color: #fff; }
 .hcw-background-tumbleweed { background-color:  #CEA07E; color: #fff; }
 .hcw-background-state-gray { background-color:  #628395; color: #000; }
-.hcw-background-eggplant { background-color:  #5E4352; color: #000; }
+.hcw-background-eggplant { background-color:  #5E4352; color: #fff; }
 
 .hcw-btn-ecru { background-color: #C1AE7C; color: #fff; }
 .hcw-btn-raisin-black { background-color: #272727; color: #fff; }
