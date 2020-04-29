@@ -5,5 +5,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.col > img {
+    height: 300px;
+}
+
+
+/* Classes */
+.row {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.hcw-image{
+    max-width: 97%;
+    height: auto;
+    margin: 5px;
+}
+
+.hcw-image-bordered {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.col {
+    
+}
+
+.hcw-container {
+    padding: 0.001em 16px;
+}
+
+.hcw-panel { 
+    padding: 0.001em 16px; 
+    margin-top: 16px;
+    margin-bottom: 16px; 
+}
+
+.hcw-text-center { text-align: center; }
+.hcw-text-left { text-align: left; }
+.hcw-text-right { text-align: right; }
+.hcw-text-justify { text-align: justify; }
+
+.hcw-font-dekko { font-family: 'Dekko', cursive; }
+
+
+
+.hcw-btn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space:  nowrap;
+    border-radius: 3px;
+}
+
+.hcw-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hcw-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.hcw-btn.hcw-disabled:hover, .hcw-btn:disabled:hover {
+    box-shadow: none;
+}
+
+
+.hcw-padding-16 { padding:  16px; }
+
+.hcw-background-ecru { background-color: #C1AE7C; color: #fff; }
+.hcw-background-raisin-black { background-color: #272727; color: #000; }
+.hcw-background-tumbleweed { background-color:  #CEA07E; color: #fff; }
+.hcw-background-state-gray { background-color:  #628395; color: #000; }
+.hcw-background-eggplant { background-color:  #5E4352; color: #000; }
+
+.hcw-btn-ecru { background-color: #C1AE7C; color: #fff; }
+.hcw-btn-raisin-black { background-color: #272727; color: #fff; }
+.hcw-btn-tumbleweed { background-color:  #CEA07E; color: #fff; }
+.hcw-btn-state-gray { background-color:  #628395; color: #000; }
+.hcw-btn-eggplant { background-color:  #5E4352; color: #ffff; }
+
 
