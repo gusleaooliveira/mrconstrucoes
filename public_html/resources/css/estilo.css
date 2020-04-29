@@ -152,12 +152,20 @@ img {
 
 .hcw-flex-row {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
 
 .hcw-flex-column {
     
 }
 
+.hcw-quadro {
+    width: 250px;
+    height: 180px;
+}
 
 /* Tela Pequena */
 
@@ -167,5 +175,13 @@ img {
     }
     .hcw-bar-right {
         flex-direction: column;
+    }
+    .hcw-flex-row {
+        flex-direction: column;
+    }
+    
+    .hcw-quadro {
+        width: inherit;
+        height: inherit;
     }
 }
