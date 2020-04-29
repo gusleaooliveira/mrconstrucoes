@@ -1,0 +1,16 @@
+{
+  "name": "MRConstruções",
+  "short_name": "MRConstruções",
+  "theme_color": "#5e4352",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+    "icons": [
+        {
+            "src": "/public_html/resources/img/home-solid.png",
+            "sizes": "576x448",
+            "type": "imagem/png"
+        }
+    ]
+}
