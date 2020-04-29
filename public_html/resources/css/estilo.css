@@ -110,11 +110,18 @@ img {
 }
 
 .hcw-bar {
-    display: flex;
-    
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
 }
 
-.hcw-bar .hcw-btn {
+.hcw-bar-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.hcw-bar .hcw-btn, .hcw-bar-right .hcw-btn {
     border-radius: 0px;
 }
 
@@ -125,23 +132,40 @@ img {
 
 .hcw-margin-10 { margin: 10px; }
 
-.hcw-background-ecru { background-color: #C1AE7C; color: #fff; }
-.hcw-background-raisin-black { background-color: #272727; color: #fff; }
-.hcw-background-tumbleweed { background-color:  #CEA07E; color: #fff; }
-.hcw-background-state-gray { background-color:  #628395; color: #000; }
-.hcw-background-eggplant { background-color:  #5E4352; color: #fff; }
+.hcw-background-ecru { background-color: #C1AE7C; color: black; }
+.hcw-background-raisin-black { background-color: #272727; color: white; }
+.hcw-background-tumbleweed { background-color:  #CEA07E; color: white; }
+.hcw-background-state-gray { background-color:  #628395; color: black; }
+.hcw-background-eggplant { background-color:  #5E4352; color: white; }
+.hcw-background-white { background-color:  #ffff; color: black; }
+.hcw-background-silver-pink { background-color: #D5BBB1; color: black; }
+.hcw-background-baby-blue-eyes { background-color: #A1C6EA; color: black; }
 
-.hcw-btn-ecru { background-color: #C1AE7C; color: #fff; }
-.hcw-btn-raisin-black { background-color: #272727; color: #fff; }
-.hcw-btn-tumbleweed { background-color:  #CEA07E; color: #fff; }
-.hcw-btn-state-gray { background-color:  #628395; color: #000; }
-.hcw-btn-eggplant { background-color:  #5E4352; color: #ffff; }
+.hcw-btn-ecru { background-color: #C1AE7C; color: black; }
+.hcw-btn-raisin-black { background-color: #272727; color: white; }
+.hcw-btn-tumbleweed { background-color:  #CEA07E; color: white; }
+.hcw-btn-state-gray { background-color:  #628395; color: black; }
+.hcw-btn-eggplant { background-color:  #5E4352; color: white; }
+.hcw-btn-white { background-color:  #ffff; color: black; }
+
+
+
+.hcw-flex-row {
+    display: flex;
+}
+
+.hcw-flex-column {
+    
+}
 
 
 /* Tela Pequena */
 
 @media screen and (max-width: 600px){
     .hcw-bar {
+        flex-direction: column;
+    }
+    .hcw-bar-right {
         flex-direction: column;
     }
 }
