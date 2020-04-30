@@ -129,6 +129,7 @@ img {
 
 .hcw-padding-16 { padding:  16px; }
 .hcw-padding-10 { padding:  10px; }
+.hcw-padding-5 { padding:  5px; }
 
 .hcw-margin-10 { margin: 10px; }
 
@@ -167,6 +168,11 @@ img {
     height: 180px;
 }
 
+
+.hcw-sticky {
+    display: none;
+}
+
 /* Tela Pequena */
 
 @media screen and (max-width: 600px){
@@ -183,5 +189,11 @@ img {
     .hcw-quadro {
         width: inherit;
         height: inherit;
+    }
+
+    .hcw-sticky {
+        display: block;
+        position: sticky;
+        top: 0;
     }
 }

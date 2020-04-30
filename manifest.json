@@ -3,7 +3,7 @@
   "short_name": "MRConstruções",
   "theme_color": "#5e4352",
   "background_color": "#ffffff",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
     "icons": [
