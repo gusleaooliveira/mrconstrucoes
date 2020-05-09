@@ -3,9 +3,9 @@
 Criar um site da empresa  MRConstruções, que possua:
 
 
-- [ x ] Galeria de Obras
+- [x] Galeria de Obras
 - [ ] Depoimento dos clientes
-- [ x ] Galeria de Serviços oferecidos
+- [x] Galeria de Serviços oferecidos
 - [ ] Contatos
 - [ ] Dados
 
