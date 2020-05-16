@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 
-sed -i "s/resources\/css\/hcw.min.css/..\/hcw0\/hcw\/hcw.min.css/" index.html
+caminhoProximo="\.\.\/\.\.\/hcw0\/hcw\/hcw.min.css"
+caminhoAnterior="resources\/css\/hcw.min.css"
+
+sed  -i "s/$caminhoAnterior/$caminhoProximo/" index.html
