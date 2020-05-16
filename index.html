@@ -12,18 +12,21 @@
   <body >
 
     <header class="raisin-black container container-absolite padding-5 sticky-top">
-      <h1  class="text-center"><i class="fas fa-hard-hat"></i> MRConstruções</h1>
+      <h1  class="text-center text-xlarge"><i class="fas fa-hard-hat"></i> MRConstruções
+        <button class=" btn btn-float-right btn-display-none eggplant" onclick="clicar('navbar')"><i class="fas fa-bars"></i></button>
+      </h1>
+      <nav class="bar raisin-black container container-absolute padding-5 sticky-bottom nav-container-accordion" id="navbar">
+        <a href="#galeria" class="btn btn-bar eggplant"><i class="fas fa-images"></i> Galeria</a>
+        <a href="" class="btn btn-bar eggplant"><i class="fas fa-comments"></i> Depoimentos</a>
+        <a href="" class="btn btn-bar eggplant"><i class="fas fa-tools"></i> Serviços</a>
+        <a href="" class="btn btn-bar eggplant"><i class="fas fa-envelope"></i> Contatos</a>
+      </nav>
     </header>
 
-    <nav class="bar raisin-black container container-absolute padding-5 sticky-bottom ">
-      <a href="" class="btn btn-bar eggplant"><i class="fas fa-images"></i> Galeria</a>
-      <a href="" class="btn btn-bar eggplant"><i class="fas fa-comments"></i> Depoimentos</a>
-      <a href="" class="btn btn-bar eggplant"><i class="fas fa-tools"></i> Serviços</a>
-      <a href="" class="btn btn-bar eggplant"><i class="fas fa-envelope"></i> Contatos</a>
-    </nav>
+
 
     <main>
-      <section  class="raisin-black container">
+      <section  class="raisin-black container" id="servicos">
         <h2 class="text-center"><i class="fas fa-tools"></i> Serviços</h2>
 
         <div class="padding-5">
@@ -89,7 +92,7 @@
         </div>
 
       </section>
-      <section class="raisin-black">
+      <section class="raisin-black" id="depoimentos">
             <h2 class="text-center"><i class="fas fa-comments"></i> Depoimentos</h2>
           <div class="row-flex">
               <div class="column-flex white card card-panel">
@@ -144,7 +147,7 @@
               </div>
             </div>
       </section>
-      <section>
+      <sectio id="contatos">
             <h2 class="text-center"><i class="fas fa-envelope"></i> Entrar em contato</h2>
             <aside>
                 <a href="https://www.facebook.com/pg/MRConstrucoes2016/photos/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i> Página do Facebook</a>
@@ -171,7 +174,7 @@
                 </fieldset>
             </form>
       </section>
-      <section class="raisin-black container">
+      <section class="raisin-black container" id="galeria">
           <h2 class="text-center"><i class="fas fa-images"></i> Galeria</h2>
 
           <div class="padding-5 container-relative">

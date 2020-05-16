@@ -1,6 +1,12 @@
 function clicar(item){
-  let accordion = document.querySelector('#'+item);
-  accordion.classList.toggle('container-accordion');
+  if(item != 'navbar'){
+    let accordion = document.querySelector('#'+item);
+    accordion.classList.toggle('container-accordion');
+  }
+  else{
+    let accordion = document.querySelector('#'+item);
+    accordion.classList.toggle('nav-container-accordion');
+  }
 }
 
 let lista = new Array();
