@@ -2,7 +2,7 @@
 
 cp /home/gustavo/Área\ de\ Trabalho/estudo/front/hcw0/hcw/hcw.min.css resources/css/
 
-sed -i "s/\.\.\/hcw0\/hcw\/hcw.min.css/\/resources\/css\/hcw.min.css/" index.html
+sed -i "s/..\/hcw0\/hcw\/hcw.min.css/resources\/css\/hcw.min.css/" index.html
 
 git add .
 
