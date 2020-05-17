@@ -1,0 +1,8 @@
+{
+  "name": "mrconstrucoes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gusleaooliveira/mrconstrucoes.git",
+  "author": "gusleaooliveira <gus.leaono@gmail.com>",
+  "license": "MIT"
+}
