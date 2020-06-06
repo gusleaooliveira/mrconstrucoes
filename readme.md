@@ -1,13 +1,16 @@
 # MRConstruções
 
+> O site foi mudado para o [local](https://github.com/gusleaooliveira/MRConstrucaoApp)
+
+
+
 Criar um site da empresa  MRConstruções, que possua:
 
-
 - [x] Galeria de Obras
-- [ ] Depoimento dos clientes
+- [x] Depoimento dos clientes
 - [x] Galeria de Serviços oferecidos
-- [ ] Contatos
-- [ ] Dados
+- [x] Contatos
+- [x] Dados
 
 ## Cabeçalho (header)
 
@@ -40,27 +43,15 @@ Aqui terão informações da empresa
 Links para navegação e redes sociais
 
 
-
----
-
-## Tarefas
-
-- [ ] Header
-- [ ] Conteúdo
-- [ ] Rodapé
-
 ---
 
 # Utilizando
 
-> GoogleFonts:
->
->   * [Lato](https://fonts.google.com/specimen/Lato)
->   * [Dekko](https://fonts.google.com/specimen/Dekko)  
->
-> SimpleGrid: [Link](https://simplegrid.io/)
->
-> Grid css criado [grid.css](https://github.com/romuloreis/DWM2020/blob/master/assets/grid.css)
+> O **css**, que foi criado por mim, e que está no [repositório](https://github.com/gusleaooliveira/hcw).
+> A bibilioteca **jquery** foi utilizada (via nodejs), e a documentação está [aqui](https://jquery.com/).
+> A font do Google que foi utilizada foi a [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto);
+
+> O site foi mudado para o [local](https://github.com/gusleaooliveira/MRConstrucaoApp)
 
 ---
 
