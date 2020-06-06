@@ -52,7 +52,7 @@ Links para navegação e redes sociais
 > A bibilioteca **jquery** foi utilizada (via nodejs), e a documentação está [aqui](https://jquery.com/).
 >
 > A font do Google que foi utilizada foi a [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto);
-
+>
 > O site foi mudado para o [local](https://github.com/gusleaooliveira/MRConstrucaoApp)
 
 ---
