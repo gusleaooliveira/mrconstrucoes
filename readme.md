@@ -48,7 +48,9 @@ Links para navegação e redes sociais
 # Utilizando
 
 > O **css**, que foi criado por mim, e que está no [repositório](https://github.com/gusleaooliveira/hcw).
+>
 > A bibilioteca **jquery** foi utilizada (via nodejs), e a documentação está [aqui](https://jquery.com/).
+>
 > A font do Google que foi utilizada foi a [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto);
 
 > O site foi mudado para o [local](https://github.com/gusleaooliveira/MRConstrucaoApp)
